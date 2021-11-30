@@ -21,3 +21,13 @@ In `Methods`:
 * `Methods/SlidingBin` contains code that applies a sliding window algorithm to smooth out rapid changes.
 * `Methods/Binning` contains code that applies a binning algorthm to replace the timeline with dominant value in each fixed-size bin.
     * This is actually done by sampling the output of the `SlidingBin` code - so it needs to be ran first to do fixed binning.
+
+## Required R version and libraries
+
+Code has been tested with R 4.0.5
+
+Library dependencies:
+* `data.table` (tested with 1.14.0)
+* `lubridate` (tested with 1.7.10)
+* `stringr` (tested with 1.4.0)
+* `plyr` (tested with 1.8.6)
